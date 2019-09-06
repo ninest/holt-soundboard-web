@@ -1,0 +1,73 @@
+$phone: 500px;
+$smallphone: 365px;
+@mixin phone-screen {
+  @media screen and (max-width: $phone) {
+    @content
+  }
+}
+@mixin small-phone-screen {
+  @media screen and (max-width: $smallphone) {
+    @content
+  }
+}
+
+html {
+  // colors
+  --nav-background-color: #10213c;
+  --nav-text-color: white;
+
+  // this sounds unintuitive, but bright is for the soundbutton while
+  // dark is for headsings and such. They will get inverted in dark mode
+  // Might change these variable names in the future
+  --text-color-bright: #fefeff;
+  --text-color-dark: #00000f;
+
+  --background-color: white;
+
+  --input-background-color: #eeefee;
+
+  &[data-theme='dark'] {
+    --nav-text-color: #cdcdcd;
+
+    --text-color-bright: #00000f;
+    --text-color-dark: #ababab;
+
+    --background-color: black;
+
+    --input-background-color: #111;
+  }
+
+  --blue: #4285f3;
+  --green: #55a854;
+  --yellow: #f5aa22;
+  --red: #e94234;
+  --dark: #222;
+  &[data-theme='dark'] {
+    --blue: #3264b4;
+    --green: #387038;
+    --yellow: #ad7917;
+    --red: #97271d;
+
+    --dark: #adadad;
+  }
+
+  // border-radius
+  --border-radius: 7px;
+
+  // paddings
+  --side-padding: 30px;
+  --main-padding: 30px;
+  --dense-padding: 20px;
+
+  --page-padding: var(--main-padding) 20%;
+  --page-dense-padding: var(--dense-padding) 20%;
+
+  @include phone-screen {
+    --side-padding: 24px;
+    --main-padding: 24px;
+    --dense-padding: 18px;
+
+    --page-padding: var(--main-padding) 5%;
+    --page-dense-padding: var(--dense-padding) 5%;
+  }
+}

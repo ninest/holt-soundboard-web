@@ -1,0 +1,116 @@
+@import './styles/globals.scss';
+
+html {
+  font-family: 'Rubik', -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  font-size: 19px;
+  @include phone-screen {font-size: 17px}
+
+  word-spacing: 1px;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+
+  // no user select
+  -webkit-overflow-scrolling: touch;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+   -khtml-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+* {
+  font-family: 'Rubik', -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+}
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+button {
+  border: none;
+  background-color: #444;
+  color: var(--text-color-bright);
+  font-size: 1.2rem;
+  font-weight: 500;
+
+  border-radius: var(--border-radius);
+  padding: calc(var(--dense-padding) * 0.4) var(--main-padding);
+  &:hover { opacity: 0.9; }
+  &:active { opacity: 0.8; }
+
+  &:focus {
+    outline: none;
+  }
+  &.submit {
+    background-color: #2040dd;
+    color: var(--text-color-bright)
+  }
+}
+
+a {
+  text-decoration: none;
+  color: blue;
+
+  &:hover {
+    text-decoration: underline;
+  }
+
+  &.button {
+    font-size: 1.2rem;
+    color: var(--text-color-bright);
+    background-color: #444;
+
+    font-size: 1.2rem;
+    font-weight: 500;
+
+    border-radius: var(--border-radius);
+    padding: calc(var(--dense-padding) * 0.4) var(--main-padding);
+
+    &:hover { opacity: 0.9; }
+    &:active { opacity: 0.8; }
+
+  }
+  &.icon-button {
+    font-size: 2.3rem;
+  }
+
+  &.red {
+    background-color: red;
+  }
+}
+
+input[type=text], textarea {
+  width: 100%;
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+  box-sizing: border-box;         /* Opera/IE 8+ */
+  resize: vertical;
+
+  border-radius: var(--border-radius);
+  border: 1px solid var(--text-color-dark);
+
+  padding: var(--dense-padding);
+
+  background-color: var(--input-background-color);
+  color: var(--text-color-dark);
+
+  font-size: 1.2rem;
+  font-weight: 600;
+
+  &:hover, &:focus {
+    border: 2px solid #2040dd;
+    outline: none;
+  }
+}
+
+.blue { background-color: var(--blue) }
+.green { background-color: var(--green) }
+.yellow { background-color: var(--yellow) }
+.red { background-color: var(--red) }
+.dark { background-color: var(--dark) }
