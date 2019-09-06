@@ -1,10 +1,13 @@
-# holt-soundboard
+# Holt Soundboard Wev
 
 > The third redesign of Holt Soundboard for web
 
-## Build Setup
+## Mobile app
+- [Android](https://play.google.com/store/apps/details?id=com.themindstorm.holt_soundboard&hl=en_US)
+- iOS (coming soon)
 
-``` bash
+## Build Setup
+```
 # install dependencies
 $ npm run install
 
@@ -19,4 +22,7 @@ $ npm run start
 $ npm run generate
 ```
 
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+## Build with
+- VueJS
+- NuxtJS
+- NuxtJS PWA module
