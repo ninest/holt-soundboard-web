@@ -91,7 +91,7 @@ sw.*
 *.swp
 
 # copyright
-assets/sounds/
+static/sounds/
 dist
 
 # nuxt pwa
