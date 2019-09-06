@@ -19,6 +19,20 @@ The app was first written in plain HTML/CSS/JS. The code slowly became unusable,
 
 Since then, I've also created a subreddit, [r/holt_soundboard](reddit.com/r/holt_soundboard). It's small, but it's a community!
 
+## Built with
+- VueJS
+- NuxtJS
+- NuxtJS PWA module
+
+## Credits
+Please check out the Credits section of the [About page](https://holt-soundboard.github.io/about).
+
+## Contributing a sound
+To contribute a sound, you can either:
+1. Make a post on [r/holt_soundboard](reddit.com/r/holt_soundboard),
+2. Fill up the form on the [Suggest page](https://holt-soundboard.github.io/suggest), or
+3. Directly send me the file through [Firefox Send](https://send.firefox.com/). You can contact me on [Reddit](https://www.reddit.com/user/themindstorm).
+
 ## Build Setup
 If you are interested in running Holt Soundboard on your machine, download or fork the repository.
 ```
@@ -29,7 +43,3 @@ npm run install
 npm run dev
 ```
 
-## Built with
-- VueJS
-- NuxtJS
-- NuxtJS PWA module
