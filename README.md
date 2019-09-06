@@ -1,6 +1,6 @@
 # [Holt Soundboard Web](https://holt-soundboard.github.io)
 
-> The third redesign of Holt Soundboard for web
+> The third redesign of Holt Soundboard for web, now with VueJS
 
 ![Holt Soundboard web](https://i.imgur.com/AO0NQ6Gg.png)
 
