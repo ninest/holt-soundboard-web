@@ -58,11 +58,15 @@ export default {
     },
     manifest: {
       name: "Holt Soundboard",
+      short_name: "Holt Soundboard",
       lang: "en",
+      background_color: "#10213c",
+      theme_color: "#10213c",
     },
     icon: {
       iconSrc: 'static/icon.png',
       iconFileSize: 'icon.png',
+      iconFileName: 'android-chrome-512x512.png',
       sizes: [64, 120, 144, 152, 192, 384, 512],
       targetDir: 'icons'
     }

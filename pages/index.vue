@@ -10,11 +10,11 @@ export default {
   },
   head() {
     return {
-      title: "Holt Soundboard"
+      title: "Holt Soundboard - Sounds of all the Brooklyn 99 characters"
     }
   }
 }
-</script>
+</script>s
 
 <style>
 

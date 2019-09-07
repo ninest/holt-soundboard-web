@@ -1,3 +1,2 @@
-# ASSETS
-
-This folder contains icons, sounds, and service worker files. 
+# [PLEASE GOT TO holt-soundboard/holt-soundboard-web](https://github.com/holt-soundboard/holt-soundboard-web)
+And start the repository while you're there :smile:
