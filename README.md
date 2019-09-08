@@ -43,3 +43,5 @@ npm run install
 npm run dev
 ```
 
+## License
+GNU AGPLv3
