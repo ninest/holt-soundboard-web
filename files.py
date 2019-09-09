@@ -3,10 +3,8 @@ import glob
 from pathlib import Path
 from pprint import pprint
 
-# path seems to be relative to main directory
-# when run in VScode
 p = Path("static/sounds/")
-sounds = {"Captain Holt": [], "Terry Jeffords": [], "Charles Boyle": [], "Jake Peralta": [], "Gina Linetti": [], "Rosa Diaz": [], "Amy Santiago": [], "Hitchcock": [], "Scully": [], "Captain CJ": []}
+sounds = {"Captain Holt": [], "Terry Jeffords": [], "Charles Boyle": [], "Jake Peralta": [], "Gina Linetti": [], "Rosa Diaz": [], "Amy Santiago": [], "Hitchcock": [], "Scully": [], "Captain CJ": [], "Doug Judy": []}
 characters = list(sounds.keys())
 
 for i in p.glob('**/*.mp3'):
