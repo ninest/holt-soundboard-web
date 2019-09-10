@@ -60,7 +60,10 @@ a {
   &:hover {
     text-decoration: underline;
   }
+  &.item {
+    color: unset;
 
+  }
   &.button {
     font-size: 1.2rem;
     color: var(--text-color-bright);

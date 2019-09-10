@@ -7,6 +7,10 @@
     a.tile(href="https://holt-soundboard.github.io/?update=forced")
       fa(:icon="['fas', 'cogs']")
       span Force update
+    hr
+    a.tile(target="_blank" href="https://play.google.com/store/apps/details?id=com.themindstorm.holt_soundboard&hl=en_US")
+      fa(:icon="['fas', 'mobile-alt']")
+      span Mobile app
 </template>
 
 <script>

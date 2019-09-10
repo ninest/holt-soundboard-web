@@ -79,12 +79,12 @@ export default {
         //import whole set
         {
           set: '@fortawesome/free-solid-svg-icons',
-          icons: ['faBars', 'faTimes', 'faEllipsisV', 'faMoon', 'faCogs', 'faChevronLeft', 'faArrowLeft', 'faArrowUp', 'faShareAlt', 'faEnvelope']
+          icons: ['faBars', 'faTimes', 'faEllipsisV', 'faMoon', 'faCogs', 'faChevronLeft', 'faArrowLeft', 'faArrowUp', 'faShareAlt', 'faEnvelope', 'faMobileAlt']
           // , 'faRedditAlien', 'faPintereset', 'faWhatsapp'
         },
         {
           set: '@fortawesome/free-brands-svg-icons',
-          icons: ['faTwitter', 'faWhatsapp', 'faReddit', 'faPinterest', 'faFacebookSquare']
+          icons: ['faTwitter', 'faWhatsapp', 'faReddit', 'faPinterest', 'faFacebookSquare', 'faGithub']
           // , 'faRedditAlien', 'faPintereset', 'faWhatsapp'
         },
       ]

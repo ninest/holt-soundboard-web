@@ -5,6 +5,10 @@
         fa(:icon="['fas', 'arrow-up']")
         span Back to top
 
+      a(target="_blank" href='https://github.com/holt-soundboard/holt-soundboard-web').item
+        fa(:icon="['fab', 'github']")
+        span GitHub
+
       .item(@click="share")
         fa(:icon="['fas', 'share-alt']")
         span Share
@@ -118,6 +122,15 @@ export default {
     grid-template-columns: auto auto;
     grid-gap: var(--dense-padding);
 
+    @include phone-screen {
+      grid-gap: unset;
+    }
+
+    @include phone-screen {
+      // include icon size
+      font-size: 1.6rem;
+    }
+
     & * {
       // vertical align
       align-self: center;
@@ -126,6 +139,10 @@ export default {
     span {
       font-size: 1.2rem;
       font-weight: 600;
+
+      @include phone-screen {
+        display: none;
+      }
     }
 
     &:hover {

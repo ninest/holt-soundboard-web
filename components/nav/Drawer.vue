@@ -12,7 +12,7 @@
       span Suggest
     a(target="_blank" href='https://play.google.com/store/apps/details?id=com.themindstorm.holt_soundboard&hl=en_US').link
       span App
-    a(target="_blank" href='https://github.com/holt-soundboard').link
+    a(target="_blank" href='https://github.com/holt-soundboard/holt-soundboard-web').link
       span GitHub
     nuxt-link(to='/known_issues').link 
       span Issues
