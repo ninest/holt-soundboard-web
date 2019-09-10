@@ -6,6 +6,8 @@
     //- TODO: make list for this
     nuxt-link(to='/about').link 
       span About
+    nuxt-link(to='/support').link 
+      span Support
     nuxt-link(to='/suggest').link 
       span Suggest
     a(target="_blank" href='https://play.google.com/store/apps/details?id=com.themindstorm.holt_soundboard&hl=en_US').link

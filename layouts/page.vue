@@ -46,6 +46,11 @@ body {
       * + ul {
         margin-top: calc(var(--dense-padding) * 0.5)
       }
+
+      img {
+        width: 100%;
+        border-radius: var(--border-radius)
+      }
     }
   }
 }
