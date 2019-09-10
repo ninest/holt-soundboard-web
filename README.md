@@ -33,6 +33,11 @@ To contribute a sound, you can either:
 2. Fill up the form on the [Suggest page](https://holt-soundboard.github.io/suggest), or
 3. Directly send me the file through [Firefox Send](https://send.firefox.com/). You can contact me on [Reddit](https://www.reddit.com/user/themindstorm).
 
+## Support development
+Download the Brave Browser using [this link](https://brave.com/hol297)! Download and use it for a month.
+
+It's like Chrome, but faster with built-in ad-blocking.
+
 ## Build Setup
 If you are interested in running Holt Soundboard on your machine, download or fork the repository.
 ```
