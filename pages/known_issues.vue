@@ -4,8 +4,8 @@
     main 
       section(v-html="knownIssuesHtml").text
       section.button-group
-        a.button(href="") New GitHub Issue
-        a.button(href="").red Post on Reddit
+        a.button(target="_blank" href="https://github.com/holt-soundboard/holt-soundboard-web/issues/new") New GitHub Issue
+        a.button(target="_blank" href="reddit.com/r/holt_soundboard").red Post on Reddit
 </template>
 
 <script>
