@@ -4,7 +4,7 @@ from pathlib import Path
 from pprint import pprint
 
 p = Path("static/sounds/")
-sounds = {"Captain Holt": [], "Terry Jeffords": [], "Charles Boyle": [], "Jake Peralta": [], "Gina Linetti": [], "Rosa Diaz": [], "Amy Santiago": [], "Hitchcock": [], "Scully": [], "Captain CJ": [], "Doug Judy": []}
+sounds = {"Captain Holt": [], "Terry Jeffords": [], "Charles Boyle": [], "Jake Peralta": [], "Gina Linetti": [], "Rosa Diaz": [], "Amy Santiago": [], "Hitchcock": [], "Scully": [], "Captain CJ": [], "Doug Judy": [], "Kevin": []}
 characters = list(sounds.keys())
 
 for i in p.glob('**/*.mp3'):
