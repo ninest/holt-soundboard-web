@@ -15,7 +15,6 @@
 
     .share-screen(v-if='showShareScreen')
       a(v-for="link in shareLinks" :href="link.link" target="_blank").share-link
-        //- fa(:icon="['fas'," + link.icon + "]")
         fa(:icon="[link.type, link.icon]" v-bind:style="{ color: link.color}")
         span {{ link.name }}
 </template>
@@ -127,7 +126,7 @@ export default {
     }
 
     @include phone-screen {
-      // include icon size
+      // include icon sizes
       font-size: 1.6rem;
     }
 

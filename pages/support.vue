@@ -4,6 +4,7 @@
     main 
       section(v-html="supportHtml").text
       section.button-group
+        //- fix this 
         //- a.button.red(href="http://reddit.com/r/holt_soundboard") Reddit
         //- nuxt-link.button(to="/suggest") Suggest
 </template>
