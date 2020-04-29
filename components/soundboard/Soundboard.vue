@@ -9,8 +9,8 @@
 
 <script>
 import { characters, sounds } from '~/contents/sounds.js'
-import CharacterNav from '~/components/soundboard/CharacterNav.vue'
-import SoundButton from '~/components/soundboard/SoundButton.vue'
+import CharacterNav from '@/components/soundboard/CharacterNav.vue'
+import SoundButton from '@/components/soundboard/SoundButton.vue'
 
 export default {
   components: { CharacterNav, SoundButton },
