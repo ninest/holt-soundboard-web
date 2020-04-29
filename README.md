@@ -4,10 +4,12 @@
 
 ![Holt Soundboard web](https://i.imgur.com/AO0NQ6Gg.png)
 
+[![bmac](./readme-images/bmac.png)](https://www.buymeacoffee.com/themindstorm)
+
 **Please contribute! PRs welcome!**
 
 ## Mobile app
-- [Android](https://play.google.com/store/apps/details?id=com.themindstorm.holt_soundboard&hl=en_US). It's also [open-source](https://github.com/holt-soundboard/holt-soundboard-mobile)
+- Android; it's also [open-source](https://github.com/holt-soundboard/holt-soundboard-mobile)
 - iOS (coming soon)
 
 ## How it started
