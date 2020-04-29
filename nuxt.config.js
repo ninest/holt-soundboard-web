@@ -41,36 +41,36 @@ export default {
   /*
   ** Nuxt.js modules
   */
-  // pwa: {
-    // meta: {
-    //   mobileApp: true,
-    //   mobileAppIOS: true,
-    //   appleStatusBarStyle: "black-translucent",
-    //   favicon: true,
+  pwa: {
+    meta: {
+      mobileApp: true,
+      mobileAppIOS: true,
+      appleStatusBarStyle: "black-translucent",
+      favicon: true,
 
-    //   author: "themindstorm",
+      author: "themindstorm",
 
-    //   theme_color: "#10213c",
+      theme_color: "#10213c",
 
-    //   ogSiteName: "Holt Soundboard",
-    //   ogTitle: "Holt Soundboard",
-    //   ogDescription: "The Holt soundboard, with sounds for Captain Raymond Holt, Terry Jeffords, Jake Peralta, and Charles Boyle from the show Brooklyn 99. Available sounds: 100+. IOS, Android, Windows 10, Online, web, app. Completely ad-free, install as a web APK on Android or add to homescreen on IOS for iphone",
-    // },
-    // manifest: {
-    //   name: "Holt Soundboard",
-    //   short_name: "Holt Soundboard",
-    //   lang: "en",
-    //   background_color: "#10213c",
-    //   theme_color: "#10213c",
-    // },
-    // icon: {
-    //   iconSrc: 'static/icon.png',
-    //   iconFileSize: 'icon.png',
-    //   iconFileName: 'android-chrome-512x512.png',
-    //   sizes: [64, 120, 144, 152, 192, 384, 512],
-    //   targetDir: 'icons'
-    // }
-  // },
+      ogSiteName: "Holt Soundboard",
+      ogTitle: "Holt Soundboard",
+      ogDescription: "The Holt soundboard, with sounds for Captain Raymond Holt, Terry Jeffords, Jake Peralta, and Charles Boyle from the show Brooklyn 99. Available sounds: 100+. IOS, Android, Windows 10, Online, web, app. Completely ad-free, install as a web APK on Android or add to homescreen on IOS for iphone",
+    },
+    manifest: {
+      name: "Holt Soundboard",
+      short_name: "Holt Soundboard",
+      lang: "en",
+      background_color: "#10213c",
+      theme_color: "#10213c",
+    },
+    icon: {
+      iconSrc: 'static/icon.png',
+      iconFileSize: 'icon.png',
+      iconFileName: 'android-chrome-512x512.png',
+      sizes: [64, 120, 144, 152, 192, 384, 512],
+      targetDir: 'icons'
+    }
+  },
   modules: [
     '@nuxtjs/pwa',
     ['nuxt-fontawesome', {
