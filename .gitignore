@@ -90,8 +90,6 @@ sw.*
 # Vim swap files
 *.swp
 
-# copyright
-static/sounds/
 dist
 
 # nuxt pwa
