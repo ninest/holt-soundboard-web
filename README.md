@@ -4,7 +4,7 @@
 
 ![Holt Soundboard web](https://i.imgur.com/AO0NQ6Gg.png)
 
-[![bmac](./readme-images/bmac.png)](https://www.buymeacoffee.com/themindstorm)
+[![bmac](./readme-images/bmac.png)](https://www.buymeacoffee.com/ninest)
 
 **Please contribute! PRs welcome!**
 
