@@ -4,7 +4,9 @@
 
 ![Holt Soundboard web](https://i.imgur.com/AO0NQ6Gg.png)
 
-[![bmac](./readme-images/bmac.png)](https://www.buymeacoffee.com/ninest)
+<a href="https://www.buymeacoffee.com/ninest">
+  <img src="./readme-images/bmac.png" alt="Buy me a cofee" height="50">
+</a>
 
 **Please contribute! PRs welcome!**
 
