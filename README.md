@@ -1,4 +1,4 @@
-# [Holt Soundboard Web](https://holt-soundboard.github.io)
+# [Holt Soundboard Web](https://nine-nine.now.sh/)
 
 > The third redesign of Holt Soundboard for web, now with VueJS
 
@@ -29,12 +29,12 @@ Since then, I've also created a subreddit, [r/holt_soundboard](https://reddit.co
 - NuxtJS PWA module
 
 ## Credits
-Please check out the Credits section of the [About page](https://holt-soundboard.github.io/about).
+Please check out the Credits section of the [About page](https://nine-nine.now.sh/about).
 
 ## Contributing a sound
 To contribute a sound, you can either:
-1. Make a post on [r/holt_soundboard](reddit.com/r/holt_soundboard),
-2. Fill up the form on the [Suggest page](https://holt-soundboard.github.io/suggest), or
+1. Make a post on [r/holt_soundboard](https://reddit.com/r/holt_soundboard),
+2. Fill up the form on the [Suggest page](https://nine-nine.now.sh/suggest), or
 3. Directly send me the file through [Firefox Send](https://send.firefox.com/). You can contact me on [Reddit](https://www.reddit.com/user/themindstorm).
 
 <!-- ## Support development
