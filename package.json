@@ -23,7 +23,7 @@
     "coffee-loader": "^0.9.0",
     "coffeescript": "^2.5.1",
     "frontmatter-markdown-loader": "^2.3.0",
-    "node-sass": "^4.14.0",
+    "node-sass": "^7.0.0",
     "pug": "^2.0.4",
     "pug-plain-loader": "^1.0.0",
     "sass-loader": "^7.3.1"
